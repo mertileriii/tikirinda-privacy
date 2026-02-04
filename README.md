@@ -2,31 +2,16 @@
 
 Bu depo, Tıkırında uygulamasının gizlilik politikası sayfasını barındırır.
 
-## GitHub Pages Kurulumu
+**Repo:** https://github.com/mertileriii/tikirinda-privacy
 
-1. Bu klasörü GitHub'da yeni bir **public** repo olarak oluştur: `tikirinda-privacy` (veya istediğin isim)
+## GitHub Pages (tek adım)
 
-2. Repo oluşturduktan sonra:
-   - **Settings** → **Pages**
-   - **Source:** Deploy from a branch
-   - **Branch:** main → / (root)
-   - **Save**
+1. **Settings** → **Pages**
+2. **Source:** Deploy from a branch
+3. **Branch:** main → / (root) seçin
+4. **Save**
 
-3. Birkaç dakika sonra sayfa yayında olacak. URL:
-   ```
-   https://mertileriii.github.io/tikirinda-privacy/
-   ```
+Birkaç dakika sonra sayfa burada yayında olacak:
+**https://mertileriii.github.io/tikirinda-privacy/**
 
-4. Bu URL'yi App Store Connect → App Information → Privacy Policy URL alanına yapıştır.
-
-## Terminal ile Yükleme
-
-```bash
-cd tikirinda-privacy
-git init
-git add .
-git commit -m "Gizlilik politikası"
-git branch -M main
-git remote add origin https://github.com/mertileriii/tikirinda-privacy.git
-git push -u origin main
-```
+Bu URL'yi App Store Connect → Privacy Policy URL alanına yapıştırın.
